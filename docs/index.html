@@ -361,8 +361,8 @@ footer a:hover{color:var(--text)}
       <article class="card wide rv">
         <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="6" width="13" height="12" rx="2.5"/><path d="m16 10 5-3v10l-5-3"/></svg></div>
         <h3>Clips intelligents</h3>
-        <p>Avec OBS : la dernière action, les 2 dernières minutes, un nom choisi à la voix. Envoyé à un pote sur Discord, compressé tout seul sous 10 Mo.</p>
-        <div class="say"><span>« clip les 2 dernières minutes »</span><span>« envoie-le à Lucas »</span></div>
+        <p>Avec OBS : la dernière action, les 2 dernières minutes, un nom choisi à la voix. Envoyé à un pote sur Discord, compressé sous 10 Mo, ou passé en vertical pour TikTok et les Shorts.</p>
+        <div class="say"><span>« clip les 2 dernières minutes »</span><span>« fais-en un clip vertical »</span><span>« envoie-le à Lucas »</span></div>
       </article>
       <article class="card wide rv d1">
         <span class="tag">AUTO</span>
@@ -390,7 +390,7 @@ footer a:hover{color:var(--text)}
       <article class="card wide rv">
         <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M5.6 5.6a9 9 0 0 0 0 12.8M18.4 5.6a9 9 0 0 1 0 12.8M8.5 8.5a5 5 0 0 0 0 7M15.5 8.5a5 5 0 0 1 0 7"/></svg></div>
         <h3>Mode stream Twitch &amp; YouTube</h3>
-        <p>Il lit ton chat à voix haute, annonce les follows, abonnements, raids, Super Chats et nouveaux membres, change de scène OBS et te donne le nombre de viewers.</p>
+        <p>Il lit ton chat à voix haute, annonce les follows, abonnements, raids, Super Chats et nouveaux membres, les affiche en alertes animées dans OBS, change de scène et te donne le nombre de viewers.</p>
         <div class="say"><span>« lis le chat en direct »</span><span>« combien de viewers ? »</span><span>« passe sur la scène Jeu »</span></div>
       </article>
       <article class="card wide rv d1">
@@ -416,9 +416,10 @@ footer a:hover{color:var(--text)}
         <p>Météo du jour ou du week-end, calculs, conversions, devises, minuteurs, pile ou face. En une fraction de seconde.</p>
       </article>
       <article class="card rv">
+        <span class="tag">2.1</span>
         <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="11" rx="5"/><path d="M7 11v3M5.5 12.5h3"/><circle cx="16" cy="11.5" r="1"/><circle cx="18" cy="13.5" r="1"/></svg></div>
-        <h3>Pensé pour le jeu</h3>
-        <p>Touche F9 ou bouton de manette pour parler. Il économise ton processeur et ne laisse aucune trace dans tes clips.</p>
+        <h3>Mode jeu automatique</h3>
+        <p>Dès que tu lances une partie, Jarvis passe en arrière-plan : priorité minimale, mode efficacité de Windows, animations figées. Pleine vitesse seulement le temps de ta demande.</p>
       </article>
       <article class="card rv d1">
         <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
@@ -594,7 +595,7 @@ footer a:hover{color:var(--text)}
     <div class="faq">
       <details class="rv"><summary>C'est vraiment gratuit ?</summary><p>Oui. Pour l'intelligence, tu choisis : ton compte Claude, une clé Gemini gratuite (Google AI Studio) ou une IA 100 % locale avec Ollama. Les commandes courantes (musique, clips, son, minuteurs, météo…) marchent même sans IA.</p></details>
       <details class="rv"><summary>Windows dit « Windows a protégé votre ordinateur »</summary><p>C'est normal : l'installeur n'est pas signé avec un certificat payant. Clique « Informations complémentaires » puis « Exécuter quand même ».</p></details>
-      <details class="rv"><summary>Ça marche pendant que je joue ?</summary><p>Oui. Dis « Jarvis » ou appuie sur F9 (ou un bouton de ta manette). Le mini-HUD s'affiche par-dessus les jeux en plein écran fenêtré ou sans bordure. La transcription est limitée à quelques cœurs pour préserver tes FPS.</p></details>
+      <details class="rv"><summary>Ça marche pendant que je joue ?</summary><p>Oui. Dis « Jarvis » ou appuie sur F9 (ou un bouton de ta manette). Dès qu'un jeu est au premier plan, le mode jeu automatique fait passer Jarvis en arrière-plan pour préserver tes FPS. Le mini-HUD s'affiche par-dessus les jeux en plein écran fenêtré ou sans bordure ; en plein écran exclusif, rien ne s'affiche par-dessus et les notifications vont sur ton téléphone.</p></details>
       <details class="rv"><summary>Pour Discord, il utilise mon compte ?</summary><p>Jamais de jeton ni de « self-bot » : Jarvis pilote l'appli Discord ouverte sur ton PC, comme tu le ferais au clavier. Ton compte reste en règle.</p></details>
       <details class="rv" id="faq-4g"><summary>Comment utiliser l'appli téléphone en 4G ?</summary><p>Installe Tailscale (gratuit) sur ton PC et sur ton téléphone, connecte-les au même compte, puis appaire le téléphone depuis Réglages, section Téléphone. Le lien est chiffré de bout en bout ; aucun port n'est ouvert sur ta box.</p></details>
       <details class="rv"><summary>De quoi j'ai besoin ?</summary><p>Windows 10 ou 11 (64 bits), un micro et environ 1 Go d'espace libre. 8 Go de mémoire sont conseillés. OBS pour les clips, Discord et Spotify sont facultatifs.</p></details>
